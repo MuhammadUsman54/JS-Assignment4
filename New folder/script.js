@@ -24,3 +24,17 @@ if (percentage >= 80) {
 
     alert("Sorry");
 }
+
+document.write(
+  "<h1>Marks Sheet</h1> \n Total Marks :" +
+    totalMarks +
+    "<br/> Marks Obtained : " +
+    totalObtndMarks +
+    " <br/> percentage : " +
+    percentage +
+    " %" +
+    " <br/> Grade :" +
+    grade +
+    " <br/> Remarks : " +
+    remarks
+);
